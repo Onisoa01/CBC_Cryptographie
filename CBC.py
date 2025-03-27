@@ -42,7 +42,7 @@ def chiffrement_xor(bloc, cle_binaire):
 
 def dechiffrement_xor(bloc_chiffre, cle_binaire):
     """Déchiffre un bloc binaire chiffré avec XOR."""
-    return chiffrement_xor(bloc_c
+    return chiffrement_xor(bloc_chiffre, cle_binaire)
 
 def generer_cle_aleatoire(taille_cle):
     """Génère une clé binaire aléatoire."""
